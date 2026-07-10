@@ -94,7 +94,7 @@ while True:
             lcd.move_to(0, 1)
             lcd.putstr(f"Light: {value_sensor}")
             lcd.move_to(0, 2)
-            lcd.putstr(f"Water: {(water_cm):.2f} cm")
+            lcd.putstr(f"Water: {water_cm:.1f}")
         else:
             lcd.move_to(0, 0)
             lcd.putstr("=== Page 2 ===")
